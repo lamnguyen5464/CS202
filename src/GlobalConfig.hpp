@@ -18,6 +18,7 @@ class GlobalConfig{
     int d1 = 0, d2 = 0, d3 = 0, d4 = 0;
     int currentPeopleX, currentPeopleY;
     queue<Pixel*> drawingQueue;
+    bool** matrix;
     char lastSignal;
     vector< vector<char> > drawing_matrix;
     char light = '+'; //green
